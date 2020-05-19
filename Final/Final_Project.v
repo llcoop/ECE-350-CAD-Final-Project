@@ -111,17 +111,6 @@ module DFE(clock, reset, status, data_en, i_rdata, i_traindata, flag, o_ry);
     sum sum14(R1[14], add_in[14], fb_out[6], R1_in[15]);
     sum sum15(R1[15], add_in[15], fb_out[7], R1_in[16]);
 
-    /*always @ (negedge clock or negedge reset) begin
-        //reset the system
-        
-        if (~reset)
-            for (i=0; i < 17; i=i+1)
-                R1[i] <= 8'b0; //reset array
-        else
-            for (i=0; i < 17; i=i+1)
-                R1[i] <= R1_in[i]; //reset array
-    end*/
-
     always @ (negedge clock or negedge reset) begin
         if (~reset) begin //reset the system
            weights <= 12'd0;
