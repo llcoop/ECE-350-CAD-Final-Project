@@ -1,2 +1,2 @@
-# ECE350-CAD
-Work from my computer aided design class
+# ECE350-CAD-Final-Proj
+My final projcect from my Computer Aided Design Class
