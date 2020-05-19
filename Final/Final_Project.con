@@ -1,0 +1,6 @@
+set lib_name NangateOpenCell_FF
+current_design DFE
+
+set_multicycle_path 4 -from { i_rdata } -to { o_ry }
+
+create_clock -period 10 [get_ports clock]

@@ -1,0 +1,26 @@
+{
+    "Final_Proj_Testbench": [
+        "Final_Proj_Testbench",
+        "F8x4L",
+        "module",
+        1
+    ],
+    "DFE": [
+        "DFE",
+        "tqhQM",
+        "module",
+        2
+    ],
+    "mult": [
+        "mult",
+        "SRUFi",
+        "module",
+        4
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        3
+    ]
+}
